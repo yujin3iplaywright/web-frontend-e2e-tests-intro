@@ -15,6 +15,7 @@ export default function Home() {
         <p>2つめの段落</p>
         <p>3つめの段落</p>
         <p>最後の段落</p>
+      </div>
     </main>
   )
 }
