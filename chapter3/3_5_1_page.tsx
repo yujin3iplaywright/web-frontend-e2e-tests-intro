@@ -1,8 +1,8 @@
 import type { Metadata } from 'next'
 
 export const metadata: Metadata = {
-  title: '3.4.1 フィルター',
-  description: '3.5 高度なロケーター > 3.4.1 フィルター',
+  title: '3.5.1 フィルター',
+  description: '3.5 高度なロケーター > 3.5.1 フィルター',
 }
 
 export default function Home() {
