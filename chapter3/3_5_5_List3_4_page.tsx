@@ -9,7 +9,7 @@ export default function Home() {
   // HTMLのfor属性はJavaScriptでは予約語であるため、ReactとJSXではhtmlForという名前を使用します
   return (
     <main>
-      <h1>3.3.5 複数要素のあるリストやテーブルからの情報取得</h1>
+      <h1>3.5.5 複数要素のあるリストやテーブルからの情報取得</h1>
       <div>
         <ul>
           <li>牛乳を買う <button>完了</button></li>
