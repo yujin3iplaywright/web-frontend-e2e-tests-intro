@@ -13,7 +13,7 @@ export default function Home() {
       <h1>Playwrightのハンズオン</h1>
       <p>あなたは1週間後にはE2Eテストのエキスパートです。</p>
       <p>
-      <label for="pet-select">ペットを選択: </label>
+      <label htmlFor="pet-select">ペットを選択: </label>
       <select name="pets" id="pet-select">
         <option value="">--オプションを選択してください--</option>
         <option value="dog">イヌ</option>
