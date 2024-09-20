@@ -13,7 +13,7 @@ export default function Home() {
       <h1>Playwrightのハンズオン</h1>
       <p>あなたは1週間後にはE2Eテストのエキスパートです。</p>
       <p>
-      <label for="uploadfile">Upload file</label>
+      <label htmlFor="uploadfile">Upload file</label>
       <input type="file" id="uploadfile" name="upload_file" accept="pdf" />
       </p>
     </main>

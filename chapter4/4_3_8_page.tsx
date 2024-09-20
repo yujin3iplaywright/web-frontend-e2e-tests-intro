@@ -13,11 +13,11 @@ export default function Home() {
       <h1>Playwrightのハンズオン</h1>
       <p>あなたは1週間後にはE2Eテストのエキスパートです。</p>
       <p>
-        <label for="email">E-Mail</label>
+        <label htmlFor="email">E-Mail</label>
         <input type="email" id="email" name="email" required/>
         <br></br>
         <br></br>
-        <label for="drink-select">好きな飲み物</label>
+        <label htmlFor="drink-select">好きな飲み物</label>
         <select name="drinks" id="drink-select" size={4} multiple>
           <option value="コーヒー">コーヒー</option>
           <option value="紅茶">紅茶</option>

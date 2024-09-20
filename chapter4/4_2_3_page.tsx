@@ -14,7 +14,7 @@ export default function Home() {
       <p>あなたは1週間後にはE2Eテストのエキスパートです。</p>
       <p>
       <input type='checkbox' id='readcheckbox' name='読みました' />
-      <label for='readcheckbox'>読みました</label>
+      <label htmlFor='readcheckbox'>読みました</label>
       </p>
     </main>
   )
