@@ -11,13 +11,11 @@ export default function Home() {
   return (
     <main>
       <h1>Success</h1>
-      <p>
         <ul>
           <li>とちおとめ</li>
           <li>あまおう</li>
           <li>紅ほっぺ</li>
         </ul>
-      </p>
     </main>
   )
 }
