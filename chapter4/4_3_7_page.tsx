@@ -12,7 +12,6 @@ export default function Home() {
     <main>
       <h1>Playwrightのハンズオン</h1>
       <p>あなたは1週間後にはE2Eテストのエキスパートです。</p>
-      <p>
         <ul>
           <li>1</li>
           <li>2</li>
@@ -22,7 +21,6 @@ export default function Home() {
           <li>6</li>
           <li>7</li>
         </ul>
-      </p>
     </main>
   )
 }
