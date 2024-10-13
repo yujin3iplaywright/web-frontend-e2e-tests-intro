@@ -1,3 +1,16 @@
+/* テストを実行する前に以下のように各ファイルを配置してください。
+playwright-handson/
+├ app/
+│ ├─ page.tsx ← これはもともとあるファイルを書き換えます。そして global.css ファイルの中身を空にします
+│ └─ login/
+│    └─ page.tsx
+├ pages/
+│ └ api/
+│   └ resource.ts
+├ tests/
+│ └ fixtimeout.spec.ts
+*/
+
 import { test } from '@playwright/test';
 
 test('固定時間を待つコードはやめようのテスト', async ({ page }) => {
