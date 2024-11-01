@@ -15,6 +15,8 @@ playwright-handson/
 ├ tests/
 │ └ dummy.spec.ts
 
+なお、JWT を作るところで使用する秘密鍵は、mkjwk で生成した中の「公開鍵と秘密鍵を含むJWK Set」の「"keys": []」の中身部分をコピーして貼り付けます。
+また、.env ファイルの「DUMMY_JWT=」には、JWT.io で生成した「Encoded」にある内容を「DUMMY_JWT=」に続けて貼り付けます（""とかで囲む必要はありません）。
 */
 
 import { test, expect } from '@playwright/test';
