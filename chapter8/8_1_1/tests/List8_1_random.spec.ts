@@ -2,7 +2,7 @@
 テスト実行前にファイルを以下のように配置してください。
 playwright-handson/
 ├ app
-│ ├ page.tsx こちらは中身を書き換えます。また globals.css は中身を空にしてください。
+│ ├ page.tsx List8_1用の内容でこちらは中身を書き換えます。また globals.css は中身を空にしてください。
 │ ├ page1
 │ │ └ page.tsx
 │ ├ page2
@@ -12,7 +12,7 @@ playwright-handson/
 │ └ page4
 │   └ page.tsx
 ├ tests/
-│ └ random.spec.ts
+│ └ List8_1_random.spec.ts
 */
 
 import { test, expect } from '@playwright/test'
