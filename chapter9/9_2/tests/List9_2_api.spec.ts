@@ -11,7 +11,7 @@ my-app/
 
 import { test, expect } from '@playwright/test';
 
-test('api', async ({ request }) => {
+test('GET ハンドラーのテスト', async ({ request }) => {
     const result = await request.get('http://localhost:3000/')
     expect(result.ok()).toBeTruthy()
     expect(await result.text()).toEqual('Hello Hono!')
