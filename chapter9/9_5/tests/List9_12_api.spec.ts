@@ -1,3 +1,14 @@
+/*
+テスト実行前にファイルを以下のように配置してください。
+my-app/
+├ src/
+│ └ index.ts こちらは9.5用のindex.tsの内容で中身を書き換えます。
+├ tests
+│ └ List9_12_api.spec.ts
+
+`npm run dev`でアプリを起動後にUIモードでテストを実行します
+*/
+
 import { test, expect } from '@playwright/test';
 
 test('認証済みリクエストを行うE2Eテスト', async ({ page }) => {
