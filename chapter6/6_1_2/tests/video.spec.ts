@@ -1,3 +1,10 @@
+/* 
+このテストコードの動作確認は以下の環境で行いました。
+ - CPU アーキテクチ: arm64（Apple M1）
+ - OS バージョン: macOS Sequoia 15.1
+ - Node.js バージョン: 22.9.0
+*/
+
 import { test, expect } from '@playwright/test';
 
 test('ビデオの撮影', async ({ page }) => {
