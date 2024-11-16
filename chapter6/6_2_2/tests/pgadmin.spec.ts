@@ -1,4 +1,9 @@
 /*
+このテストコードの動作確認は以下の環境で行いました。
+ - CPU アーキテクチ: arm64（Apple M1）
+ - OS バージョン: macOS Sequoia 15.1
+ - Node.js バージョン: 22.9.0
+ 
 こちらでは docker を使います。（私は、Rancher Desktopを使っています。）
 
 テスト実行前に以下を実行してください。こちらは playwright.config.ts の中で、認証情報を保存する場所を作るのに path ライブラリを使っています。
