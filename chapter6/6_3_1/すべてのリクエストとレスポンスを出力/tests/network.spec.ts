@@ -22,5 +22,5 @@ test('ネットワークの監視' , async ({ page }) => {
     page.on('response', (response) =>
         console.log('<<', response.status(), response.url())
     )
-    await page.goto('http://playwright.dev')
+    await page.goto('https://playwright.dev') // 本では、https://example.com になっているところを https://playwright.dev にしています
 })
