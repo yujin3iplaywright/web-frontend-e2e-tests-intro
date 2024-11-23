@@ -8,6 +8,8 @@
 playwright-handson/
 ├ app
 │ └ page.tsx こちらは中身を書き換えます
+├ public
+│ └ example.jpg
 ├ tests/
 │ └ abort.spec.ts
 */
