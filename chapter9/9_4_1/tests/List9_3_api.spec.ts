@@ -15,7 +15,7 @@ const BASE_URL = 'http://localhost:3000';
 
 // get()メソッドを利用
 test('APIテスト (get)', async ({ request }) => {
-  const result = await request.get('/hello');
+  const result = await request.get(`${BASE_URL}/hello`);
   expect(result.ok()).toBeTruthy();
   expect(await result.text()).toEqual('Hello Hono!');
 });
