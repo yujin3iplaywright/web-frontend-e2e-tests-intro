@@ -1,0 +1,13 @@
+{
+  "overrides": [
+    {
+      "files": ["e2e/**"],
+      "extends": ["plugin:playwright/recommended"]
+    },
+    {
+      "files": ["tests/**"],
+      "plugins": ["vitest"],
+      "extends": ["plugin:vitest/recommended"]
+    }
+  ]
+}
