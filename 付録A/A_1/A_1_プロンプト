@@ -1,0 +1,7 @@
+```
+<form>
+  <label for="name">名前</label><input id="name" name="name" />
+  <input type="submit" value="送信">
+</form>
+```
+これをテストするPlaywrightのテストコードを書いてください。@playwright/testパッケージを利用してください。
